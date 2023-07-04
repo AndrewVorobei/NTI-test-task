@@ -1,0 +1,898 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.cdnfonts.com/css/circe" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- MENU -->
+
+    <div class="nav-menu toggle-menu">
+      <div class="toggle-menu-block"></div>
+      <div class="main-menu-block">
+        <div class="menu-header">
+          <img src="assets/navbarRight/nav-right1.png" />
+          <p>Андрей</p>
+        </div>
+        <ul>
+          <hr />
+          <li>
+            <nav>Личный кабинет</nav>
+          </li>
+          <hr />
+          <li>
+            <nav>История заказов</nav>
+          </li>
+          <hr />
+          <li>
+            <nav>Персональные предложения</nav>
+          </li>
+          <hr />
+          <li>
+            <nav>Выйти</nav>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- HEADER -->
+
+    <header class="navbar">
+      <div class="navbar-left">
+        <img src="assets/navImg1.png" style="height: 70px; width: 70px" />
+
+        <div class="navbar-arcticles">
+          <nav class="nav-arcticle">ГЛАВНАЯ</nav>
+          <nav class="nav-arcticle">КАТАЛОГ</nav>
+          <nav class="nav-arcticle">НОВОСТИ</nav>
+          <nav class="nav-arcticle">НАШ АСЦ</nav>
+          <nav class="nav-arcticle">КОНТАКТЫ</nav>
+        </div>
+
+        <img src="assets/navImg2.png" style="width: 18.4px; height: 18.4px" />
+      </div>
+      <div class="navbar-right">
+        <div class="navbar-right-arcticle">
+          <nav class="private-office" style="justify-content: center">
+            <img
+              class="nav-right-img1"
+              src="assets/navbarRight/nav-right1.png"
+            />
+          </nav>
+          <nav>
+            <div class="navImg2">
+              <img
+                class="nav-right-img2"
+                src="assets/navbarRight/nav-right2.png"
+              />
+            </div>
+          </nav>
+          <nav>
+            <div class="navImg3">
+              <img
+                class="nav-right-img3"
+                src="assets/navbarRight/nav-right3.png"
+              />
+            </div>
+          </nav>
+          <nav>
+            <div class="navImg4">
+              <img src="assets/navbarRight/bagNumber.png" class="bagNumber" />
+              <img
+                class="nav-right-img4"
+                src="assets/navbarRight/nav-right4.png"
+              />
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <header class="navbarForAdaptive">
+      <div class="adaptiveNav-toggleMenu adaptiveNav-close">
+        <ul class="adaptiveUl">
+          <li>Главная</li>
+          <li>Каталог</li>
+          <li>Новости</li>
+          <li>Наш АСЦ</li>
+          <li>Контакты</li>
+        </ul>
+      </div>
+      <img src="assets/footerImg/logo.png" class="adaptiveNavImg1" />
+      <div class="adaptiveNav-right">
+        <div class="adaptiveNav-right-search">
+          <img src="assets/navImg2.png" class="searchIcon" />
+        </div>
+        <div class="adaptiveNav-right-block">
+          <img src="assets/navbarRight/nav-right1.png" />
+        </div>
+        <div class="adaptiveNav-right-block-bag">
+          <img
+            src="assets/navbarRight/bagNumber.png"
+            class="bagNumber-adaptive"
+          />
+          <img src="assets/navbarRight/nav-right4.png" />
+        </div>
+
+        <button class="adaptiveNav-right-block-burger">
+          <hr class="burger-hr" />
+          <hr class="burger-hr" />
+          <hr class="burger-hr" />
+        </button>
+      </div>
+    </header>
+
+    <!-- MAIN -->
+
+    <main class="main">
+      <!-- FIRST SCREEN -->
+
+      <div class="firstScreen">
+        <div class="points">
+          <button class="point first-point"></button>
+          <button class="point"></button>
+          <button class="point"></button>
+          <button class="point"></button>
+          <button class="point"></button>
+        </div>
+        <div class="firstScreen-left">
+          <div class="dellBg"></div>
+
+          <div class="firstScreen-text">
+            <p class="new-arrival">Новое поступление</p>
+            <p class="best-positions">
+              Лучшие товары <br />
+              от компании Dell
+            </p>
+            <button class="">
+              <div class="">
+                <p class="">→</p>
+              </div>
+              В каталог
+            </button>
+          </div>
+          <img
+            src="assets/MainImg/firstScreenImg/computerSlide1.png"
+            class="computerSlider computerSlide1"
+          />
+          <img
+            src="assets/MainImg/firstScreenImg/NewPhotoSlider.png"
+            class="computerSlider computerSlide2"
+          />
+          <button class="firstScreen-scroll">
+            <p>Scroll to catalog</p>
+            <img
+              src="assets/MainImg/firstScreenImg/scrollIcon.png"
+              class="firstScreen-scroll-img"
+            />
+          </button>
+        </div>
+        <div class="firstScreen-right">
+          <p class="slider-text">Выгодное предложение от Dell</p>
+          <button class="sliderArrow">
+            <img
+              src="assets/MainImg/firstScreenImg/sliderArrow.png"
+              class="sliderArrowImg"
+            />
+          </button>
+        </div>
+      </div>
+
+      <!-- CATALOG -->
+
+      <div class="catalog">
+        <div class="catalog-top">
+          <div class="catalog-top-1">
+            <p class="catalog-top-1-header">Каталог <br />товаров от Dell</p>
+            <p class="catalog-top-1-text">
+              Наша компания является <br />зарегистрированным и официальным
+              <br />партнером Dell в России.
+            </p>
+            <button class="addToCatalogBtn">
+              <div class="addToCatalog">
+                <p class="arrow">→</p>
+              </div>
+              В каталог
+            </button>
+          </div>
+          <div class="catalog-top-2">
+            <p class="catalog-num">01</p>
+            <img
+              class="catalog-top-img1"
+              src="assets/MainImg/catalogImg/catalogTop1.png"
+            />
+            <p class="catalog-amount">105 товаров</p>
+            <p class="catalog-name">Ноутбуки</p>
+          </div>
+          <div class="catalog-top-3">
+            <p class="catalog-num">02</p>
+            <img
+              class="catalog-top-img2"
+              src="assets/MainImg/catalogImg/catalogTop2.png"
+            />
+            <p class="catalog-amount">65 товаров</p>
+            <p class="catalog-name">Персональные компьютеры</p>
+          </div>
+        </div>
+        <div class="catalog-bottom">
+          <div class="catalog-bot-1">
+            <p class="catalog-num">03</p>
+            <img
+              src="assets/MainImg/catalogImg/catalogBot1.png"
+              class="catalog-bot-1-img"
+            />
+            <p class="catalog-amount">13 товаров</p>
+            <p class="catalog-name">Серверы</p>
+          </div>
+          <div class="catalog-bot-2">
+            <p class="catalog-num">04</p>
+            <img
+              src="assets/MainImg/catalogImg/catalogBot2.png"
+              class="catalog-bot-2-img"
+            />
+            <p class="catalog-amount">2345 товаров</p>
+            <p class="catalog-name">Dell EMC</p>
+          </div>
+          <div class="catalog-bot-3">
+            <p class="catalog-num">05</p>
+            <img
+              src="assets/MainImg/catalogImg/catalogBot3.png"
+              class="catalog-bot-3-img"
+            />
+            <p class="catalog-amount">195 товаров</p>
+            <p class="catalog-name">Запасные части к Dell EMC</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- ADVANTAGES -->
+
+      <div class="advantages">
+        <div class="advantages-top">
+          <div class="bestQuality"></div>
+          <img src="assets/MainImg/advImg/advImg1.png" class="advImg1" />
+          <div class="advantages-text-top">
+            <p class="advantages-text-header">Наши преимущества</p>
+            <p class="advantages-text-main">
+              Оптимизация мощностей (расходов, социальных <br />
+              выплат и т.п.) позволили компании на 4,7% понизить цены <br />
+              по сравнению с конкурентами
+            </p>
+            <button class="addToCatalogBtn">
+              <div class="addToCatalog">
+                <p class="arrow">→</p>
+              </div>
+              Оставить заявку
+            </button>
+          </div>
+        </div>
+        <div class="advantages-bot">
+          <div class="advantages-container-1">
+            <img
+              src="assets/MainImg/advImg/advImgVector.png"
+              class="advImgVector"
+            />
+            <div class="container-icon-1">
+              <img
+                src="assets/MainImg/advImg/card-pos.png"
+                class="advImgLeft"
+              />
+            </div>
+
+            <p class="advantages-container-text">
+              Самые выгодные <br />
+              и низкие цены
+            </p>
+            <p class="advantages-container-text-bottom">
+              В наличии широкий ассортимент,<br />
+              а также доступные цены <br />
+              на ноутбуки Dell
+            </p>
+          </div>
+          <div class="advantages-container-2">
+            <img
+              src="assets/MainImg/advImg/advImgVector.png"
+              class="advImgVector"
+            />
+            <div class="container-icon-2">
+              <img src="assets/MainImg/advImg/checked.png" class="advImgLeft" />
+            </div>
+
+            <p class="advantages-container-text">
+              Авторизованный <br />
+              сервисный центр DELL
+            </p>
+            <p class="advantages-container-text-bottom">
+              Сертифицированный сервисный <br />
+              центр по ремонту техники Dell <br />
+              в России и странах СНГ
+            </p>
+          </div>
+          <div class="advantages-container-3">
+            <img
+              src="assets/MainImg/advImg/advImgVector.png"
+              class="advImgVector"
+            />
+            <div class="container-icon-3">
+              <img src="assets/MainImg/advImg/people.png" class="advImgLeft" />
+            </div>
+
+            <p class="advantages-container-text">
+              Высокий уровень <br />
+              технической экспертизы
+            </p>
+            <p class="advantages-container-text-bottom">
+              Мы прошли аттестацию в виде <br />
+              тестирования, где показали <br />
+              высокий уровень знаний
+            </p>
+          </div>
+          <div class="advantages-container-4">
+            <img
+              src="assets/MainImg/advImg/advImgVector.png"
+              class="advImgVector"
+            />
+            <div class="container-icon-4">
+              <img src="assets/MainImg/advImg/3dcube.png" class="advImgLeft" />
+            </div>
+
+            <p class="advantages-container-text">
+              Официальный партнер <br />
+              DELL
+            </p>
+            <p class="advantages-container-text-bottom">
+              Официальный поставщик <br />
+              продукции DELL в России <br />
+              и странах СНГ
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- LAST NEWS -->
+
+      <div class="lastNews">
+        <div class="lastNews-text" style="display: flex">
+          <div
+            class="lastNews-text-left"
+            style="display: flex; flex-direction: column"
+          >
+            <p class="lastNews-text-left-header">Последние новости</p>
+            <p class="lastNews-text-left-bottom">
+              Вы можете посмотреть ещё больше интересных новостей и узнать о
+              последних <br />
+              новинках, перейдя по кнопке
+            </p>
+          </div>
+          <button class="lastNews-text-right">
+            Все новости
+
+            <div class="addToCatalog">
+              <p class="arrow">→</p>
+            </div>
+          </button>
+        </div>
+        <div class="lastNews-group-top">
+          <div class="lastNews-container-1">
+            <div class="lastNews-data">
+              <div class="date">
+                <p
+                  style="
+                    color: #292d32;
+                    text-align: center;
+                    font-size: 20px;
+                    font-family: Roboto;
+                    font-style: normal;
+                    font-weight: 900;
+                    line-height: normal;
+                  "
+                >
+                  11
+                </p>
+                <p>Июля</p>
+              </div>
+              <img
+                src="assets/MainImg/lastNewsImg/lastNewsTop1.png"
+                class="lastNewsImg"
+              />
+            </div>
+            <div class="lastNewsText">
+              <div class="lastNewsBtn">
+                <button class="lastNewsBtnInner">→</button>
+              </div>
+              <p
+                style="
+                  color: #292d32;
+                  font-size: 25px;
+                  font-family: Roboto;
+                  font-style: normal;
+                  font-weight: 700;
+                  line-height: 130%;
+                  padding-top: 24px;
+                  padding-left: 30px;
+                "
+              >
+                GE использует <br />
+                технологии Dell
+              </p>
+              <p
+                style="
+                  color: #292d32;
+                  font-size: 14px;
+                  font-family: Roboto;
+                  font-style: normal;
+                  font-weight: 400;
+                  line-height: 150%;
+                  padding-top: 11px;
+                  padding-left: 30px;
+                "
+              >
+                Вы можете посмотреть ещё больше интересных
+              </p>
+            </div>
+          </div>
+          <div class="lastNews-container-2">
+            <div class="lastNews-data">
+              <div class="date">
+                <p
+                  style="
+                    color: #292d32;
+                    text-align: center;
+                    font-size: 20px;
+                    font-family: Roboto;
+                    font-style: normal;
+                    font-weight: 900;
+                    line-height: normal;
+                  "
+                >
+                  11
+                </p>
+                <p>Июля</p>
+              </div>
+              <img
+                src="assets/MainImg/lastNewsImg/lastNewsTop2.png"
+                class="lastNewsImg"
+              />
+            </div>
+            <div class="lastNewsText">
+              <div class="lastNewsBtn">
+                <button class="lastNewsBtnInner">→</button>
+              </div>
+              <p
+                style="
+                  color: #292d32;
+                  font-size: 25px;
+                  font-family: Roboto;
+                  font-style: normal;
+                  font-weight: 700;
+                  line-height: 130%;
+                  padding-top: 24px;
+                  padding-left: 30px;
+                "
+              >
+                GE использует <br />
+                технологии Dell
+              </p>
+              <p
+                style="
+                  color: #292d32;
+                  font-size: 14px;
+                  font-family: Roboto;
+                  font-style: normal;
+                  font-weight: 400;
+                  line-height: 150%;
+                  padding-top: 11px;
+                  padding-left: 30px;
+                "
+              >
+                Вы можете посмотреть ещё больше интересных
+              </p>
+            </div>
+          </div>
+          <div class="lastNews-container-3">
+            <div class="lastNews-data">
+              <div class="date">
+                <p
+                  style="
+                    color: #292d32;
+                    text-align: center;
+                    font-size: 20px;
+                    font-family: Roboto;
+                    font-style: normal;
+                    font-weight: 900;
+                    line-height: normal;
+                  "
+                >
+                  11
+                </p>
+                <p>Июля</p>
+              </div>
+              <img
+                src="assets/MainImg/lastNewsImg/lasNewsTop3.png"
+                class="lastNewsImg"
+              />
+            </div>
+            <div class="lastNewsText">
+              <div class="lastNewsBtn">
+                <button class="lastNewsBtnInner">→</button>
+              </div>
+              <p
+                style="
+                  color: #292d32;
+                  font-size: 25px;
+                  font-family: Roboto;
+                  font-style: normal;
+                  font-weight: 700;
+                  line-height: 130%;
+                  padding-top: 24px;
+                  padding-left: 30px;
+                "
+              >
+                GE использует <br />
+                технологии Dell
+              </p>
+              <p
+                style="
+                  color: #292d32;
+                  font-size: 14px;
+                  font-family: Roboto;
+                  font-style: normal;
+                  font-weight: 400;
+                  line-height: 150%;
+                  padding-top: 11px;
+                  padding-left: 30px;
+                "
+              >
+                Вы можете посмотреть ещё больше интересных
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="lastNews-group-bot">
+          <div class="lastNews-container-4">
+            <div class="lastNews-data">
+              <div class="date">
+                <p
+                  style="
+                    color: #292d32;
+                    text-align: center;
+                    font-size: 20px;
+                    font-family: Roboto;
+                    font-style: normal;
+                    font-weight: 900;
+                    line-height: normal;
+                  "
+                >
+                  11
+                </p>
+                <p>Июля</p>
+              </div>
+              <img
+                src="assets/MainImg/lastNewsImg/lastNewsImg4.png"
+                class="lastNewsImg"
+              />
+            </div>
+            <div class="lastNewsText">
+              <div class="lastNewsBtn">
+                <button class="lastNewsBtnInner">→</button>
+              </div>
+              <p class="geUse">
+                GE использует <br />
+                технологии Dell
+              </p>
+              <p class="YouCanSeeMore">
+                Вы можете посмотреть ещё больше интересных
+              </p>
+            </div>
+          </div>
+          <div class="lastNews-container-5">
+            <div class="lastNews-data">
+              <div class="date">
+                <p
+                  style="
+                    color: #292d32;
+                    text-align: center;
+                    font-size: 20px;
+                    font-family: Roboto;
+                    font-style: normal;
+                    font-weight: 900;
+                    line-height: normal;
+                  "
+                >
+                  11
+                </p>
+                <p>Июля</p>
+              </div>
+              <img
+                src="assets/MainImg/lastNewsImg/lastNewsImg5.png"
+                class="lastNewsImg"
+              />
+            </div>
+            <div class="lastNewsText">
+              <div class="lastNewsBtn">
+                <button class="lastNewsBtnInner">→</button>
+              </div>
+              <p class="geUse">
+                GE использует <br />
+                технологии Dell
+              </p>
+              <p class="YouCanSeeMore">
+                Вы можете посмотреть ещё больше интересных
+              </p>
+            </div>
+          </div>
+          <div class="lastNews-container-6">
+            <div class="lastNews-data">
+              <div class="date">
+                <p
+                  style="
+                    color: #292d32;
+                    text-align: center;
+                    font-size: 20px;
+                    font-family: Roboto;
+                    font-style: normal;
+                    font-weight: 900;
+                    line-height: normal;
+                  "
+                >
+                  11
+                </p>
+                <p>Июля</p>
+              </div>
+              <img
+                src="assets/MainImg/lastNewsImg/lastNewsImg6.png"
+                class="lastNewsImg"
+              />
+            </div>
+            <div class="lastNewsText">
+              <div class="lastNewsBtn">
+                <button class="lastNewsBtnInner">→</button>
+              </div>
+              <p class="geUse">
+                GE использует <br />
+                технологии Dell
+              </p>
+              <p class="YouCanSeeMore">
+                Вы можете посмотреть ещё больше интересных
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CONTACTS -->
+
+      <div class="contacts-bg">
+        <div class="contacts-text-bg"></div>
+        <div class="contacts">
+          <div class="iphone13Pro">
+            <img
+              src="assets/MainImg/contactsImg/Iphone13maxPro.png"
+              class="iphone13ProMain"
+            />
+          </div>
+          <div class="ourContacts">
+            <div class="contacts-header">
+              <p class="contacts-header-top">
+                Наши контакты
+                <br />
+              </p>
+
+              <p class="contacts-header-bottom">
+                Вы можете связаться с нашим онлайн-консультантом
+              </p>
+            </div>
+
+            <div class="Adress">
+              <img
+                src="assets/MainImg/contactsImg/contImg1.png"
+                class="contImg1"
+              />
+              <div style="padding-left: 17px">
+                <p class="contact-type">Адрес</p>
+                <p style="padding-top: 8px" class="contacts-descr">
+                  Москва, ул. 3-я Хорошевская, дом <br />
+                  2, строение 1
+                </p>
+              </div>
+            </div>
+            <div class="email">
+              <img
+                class="contImg2"
+                src="assets/MainImg/contactsImg/contImg2.png"
+              />
+              <div style="padding-left: 18px">
+                <p class="contact-type">E-mail</p>
+                <p class="contacts-descr" style="padding-top: 8px">
+                  dell_ru@gmail.com
+                </p>
+              </div>
+            </div>
+            <div class="phone-number">
+              <img
+                class="contImg3"
+                src="assets/MainImg/contactsImg/contImg3.png"
+              />
+              <div style="padding-left: 17.74px">
+                <p class="contact-type">Телефон</p>
+                <p class="contacts-descr-phone">
+                  +7 495 737-06-01 <br />
+                  +7 495 737-06-01
+                </p>
+              </div>
+            </div>
+            <img
+              src="assets/MainImg/contactsImg/socialIcons.png"
+              class="social"
+            />
+          </div>
+          <div class="makeUser">
+            <form class="userForm" onsubmit="submitForm(event)">
+              <div class="user-header">
+                <p class="user-header-top">Оставьте заявку</p>
+                <p class="user-header-bottom">
+                  Оставьте свой номер, и мы перезвоним Вам.
+                </p>
+              </div>
+
+              <label for="" class="userLabelBlock1">
+                <p class="userLabel1">Ваше имя</p>
+                <input type="text" class="userName" required />
+              </label>
+
+              <label for="" class="userLabelBlock2">
+                <p class="userLabel2">Номер телефона</p>
+                <input
+                  type="tel"
+                  class="userPhone"
+                  required
+                  pattern="[0-9]{11,12}"
+                />
+              </label>
+
+              <label for="" class="userLabelBlock3">
+                <div class="userLabel3">Комментарий</div>
+                <textarea type="text" class="userComment" required> </textarea>
+              </label>
+              <button class="user-order" type="submit">
+                <div class="addToCatalog">
+                  <p class="arrow">→</p>
+                </div>
+                Заказать
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer-top">
+        <img class="footer-logo" src="assets/footerImg/logo.png" />
+        <div class="footer-texts">
+          <div class="footer-text1">
+            <p class="footer-text-descr">Каталог</p>
+            <ul class="catalog-ul">
+              <li>Ноутбуки</li>
+              <li>Персональные компьютеры</li>
+              <li>Серверы</li>
+              <li>Dell EMC</li>
+              <li class="">Запасные части к Dell EMC</li>
+            </ul>
+          </div>
+          <div class="footer-text2">
+            <p class="footer-text-descr">Личный кабинет</p>
+            <ul class="catalog-ul">
+              <li>Профиль</li>
+              <li>История заказов</li>
+              <li>SMS-уведомления</li>
+              <li>Избранное</li>
+              <li>Сравнение товаров</li>
+            </ul>
+          </div>
+          <div class="footer-text3">
+            <p class="footer-text-descr">Помощь</p>
+            <ul class="catalog-ul">
+              <li>Доставка и оплата</li>
+              <li>Контакты</li>
+              <li>FAQ</li>
+              <li>Наш АСЦ</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <hr class="footer-hr" />
+      <div class="footer-bottom">
+        <div class="footer-adress">
+          <p class="footer-contacts-type">Адрес</p>
+          <p class="footer-contacts">
+            Москва, ул. 3-я Хорошевская, дом 2, строение 1
+          </p>
+        </div>
+        <div class="footer-phone">
+          <p class="footer-contacts-type">Телефон</p>
+          <p class="footer-contacts">+7 495 737-06-01, +7 495 737-06-01</p>
+        </div>
+        <div class="footer-email">
+          <p class="footer-contacts-type">E-mail</p>
+          <p class="footer-contacts">dell_ru@gmail.com</p>
+        </div>
+        <img
+          src="assets/MainImg/contactsImg/socialIcons.png"
+          class="footer-socialIcons"
+        />
+      </div>
+      <img src="assets/MainImg/firstScreenImg/Dell.png" class="footer-Dell" />
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="index.js"></script>
+    <script>
+      $(document).ready(function () {
+        var slideIndex = 0;
+        var slides = $(".computerSlider");
+        var points = $(".point");
+        var arrow = $(".sliderArrow");
+
+        function showNextSlide() {
+          $(slides[slideIndex]).hide();
+          $(points[slideIndex]).removeClass("active");
+
+          slideIndex++;
+          if (slideIndex >= slides.length) {
+            slideIndex = 0;
+          }
+
+          $(slides[slideIndex]).show();
+          $(points[slideIndex]).addClass("active");
+
+          $(".points").prepend($(".first-point"));
+        }
+
+        setInterval(showNextSlide, 5000);
+
+        points.click(function () {
+          var index = $(this).index();
+          if (index !== slideIndex) {
+            $(slides[slideIndex]).hide();
+            $(points[slideIndex]).removeClass("active");
+
+            slideIndex = index;
+
+            $(slides[slideIndex]).show();
+            $(points[slideIndex]).addClass("active");
+
+            $(".points").prepend($(".first-point"));
+          }
+        });
+
+        arrow.click(function () {
+          showNextSlide();
+        });
+
+        $(".navbarForAdaptive").click(function () {
+          const isOpen = $(this).hasClass(".adaptiveNav-close");
+          const rightBlockBurger = $(".adaptiveNav-right-block-burger");
+
+          if (isOpen) {
+            rightBlockBurger.html("");
+          } else {
+            rightBlockBurger.html('<p class="X">X</p>');
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
